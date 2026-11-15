@@ -1,7 +1,7 @@
 # this file contains the social media links and usernames of the author
 # the socials will be displayed in the order they are defined here
 # for more information, please refer to the documentation of jekyll-socials plugin: https://github.com/george-gca/jekyll-socials
-email: seongbinlee@kaist.ac.kr # public contact email (not the GitHub login Gmail)
+# email is in _data/contact.yml so it renders through al_email_protect (jekyll-socials would print it in plain text)
 github_username: seong-bin-lee
 # [PLACEHOLDER] uncomment each line once the real value is ready
 # cv_pdf: /assets/pdf/cv.pdf # path to your CV PDF file

@@ -1,0 +1,8 @@
+# Connect row on the Home page (_pages/about.md). Only these three links are shown.
+# No phone number or postal address on the site.
+# email: public contact email (not the GitHub login Gmail). Rendered with
+#   {% al_email_protect_link site.data.contact.email %} so the built HTML never contains the plain address.
+email: seongbinlee@kaist.ac.kr
+# linkedin: [PLACEHOLDER] full profile URL, e.g. https://www.linkedin.com/in/your-id/ (hidden while blank)
+linkedin:
+lab: https://arml.kaist.ac.kr/

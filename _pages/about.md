@@ -11,10 +11,9 @@ profile:
   more_info: >
     <p>Aerospace Robotics and Mechanisms Laboratory</p>
     <p>Dept. of Aerospace Engineering, KAIST</p>
-    <p>Daejeon, Republic of Korea</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+social: false # links live in the Connect row (_data/contact.yml)
 
 announcements:
   enabled: true # includes a list of news items
@@ -28,6 +27,12 @@ latest_posts:
 ---
 
 I am a PhD candidate in Aerospace Engineering at KAIST, working with Prof. Dae-Young Lee at the Aerospace Robotics and Mechanisms Laboratory (ARML). My research is on robot mobility on soft, granular terrain, with a focus on planetary exploration rovers and deployable structures.
+
+<p class="connect"><strong>Connect</strong>
+  <span class="connect-item"><i class="fa-solid fa-envelope"></i> {% al_email_protect_link site.data.contact.email %}</span>
+  {% if site.data.contact.linkedin %}<span class="connect-item">· <i class="fa-brands fa-linkedin"></i> <a href="{{ site.data.contact.linkedin }}">LinkedIn</a></span>{% endif %}
+  <span class="connect-item">· <i class="fa-solid fa-flask"></i> <a href="{{ site.data.contact.lab }}">ARML Lab</a></span>
+</p>
 
 > _Planetary robots still get stuck in terrain we cannot predict. I work toward robot mobility that is designed, modeled, and verified before the robot touches the ground._
 
