@@ -1,0 +1,13 @@
+# Research Trajectory nodes, oldest first. Add a node by adding an item.
+# open: true draws the dashed, empty "Next chapter" node.
+- question: How do I describe a shape?
+  caption: Parametric airfoil modeling
+- question: How does a structure deform?
+  caption: Deployable wheel · elastica model
+- question: How does it meet the soil?
+  caption: GSL · DEM · soil-bin tests
+- question: How will a robot move?
+  caption: Physics-guided mobility prediction
+- question: Next chapter
+  caption:
+  open: true

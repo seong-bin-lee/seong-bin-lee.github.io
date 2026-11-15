@@ -2,12 +2,16 @@
 layout: about
 title: about
 permalink: /
-subtitle: PhD Candidate in Aerospace Engineering, KAIST · ARML
+subtitle: PhD Candidate in Aerospace Engineering, KAIST · <a href="https://arml.kaist.ac.kr/">ARML</a>
 
 profile:
   align: right
+  image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
-  # image: prof_pic.jpg # [PLACEHOLDER] add a square photo to assets/img/ and uncomment
+  more_info: >
+    <p>Aerospace Robotics and Mechanisms Laboratory</p>
+    <p>Dept. of Aerospace Engineering, KAIST</p>
+    <p>Daejeon, Republic of Korea</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -23,4 +27,24 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-[PLACEHOLDER] Short bio. The full research statement will live on the Research page.
+I am a PhD candidate in Aerospace Engineering at KAIST, working with Prof. Dae-Young Lee at the Aerospace Robotics and Mechanisms Laboratory (ARML). My research is on robot mobility on soft, granular terrain, with a focus on planetary exploration rovers and deployable structures.
+
+> _Planetary robots still get stuck in terrain we cannot predict. I work toward robot mobility that is designed, modeled, and verified before the robot touches the ground._
+
+#### Highlights
+
+{% assign pinned = site.news | where: "pin", true | sort: "date" | reverse %}
+
+<ul class="highlights">
+{% for item in pinned limit: 3 %}
+  <li><span class="news-type news-type--{{ item.type | downcase }}">{{ item.type }}</span> <a href="{{ item.link }}">{{ item.title }}</a> <span class="text-muted">· {{ item.date | date: "%b %Y" }}</span></li>
+{% endfor %}
+</ul>
+
+#### Current Focus
+
+Physics-guided prediction of rover mobility on granular terrain
+
+#### Research Themes
+
+[Traversability Prediction](/research/#traversability-prediction) · [Terramechanics & Granular Physics](/research/#terramechanics) · [Adaptive Locomotion Hardware](/research/#adaptive-locomotion-hardware) · [Space Robotics](/research/#space-robotics)
