@@ -7,7 +7,7 @@ subtitle: PhD Candidate in Aerospace Engineering, KAIST · ARML
 profile:
   align: right
   image_circular: false # crops the image to make it circular
-  # image: prof_pic.jpg # <PLACEHOLDER> add a square photo to assets/img/ and uncomment
+  # image: prof_pic.jpg # [PLACEHOLDER] add a square photo to assets/img/ and uncomment
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -23,4 +23,4 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-<PLACEHOLDER> Short bio. The full research statement will live on the Research page.
+[PLACEHOLDER] Short bio. The full research statement will live on the Research page.
